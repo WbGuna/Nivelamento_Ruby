@@ -1,0 +1,20 @@
+textarea {
+    resize: horizontal;
+}
+
+input {
+    background-color: #ccc;
+}
+
+input:focus {
+    background-color: red;
+}
+
+button {
+    background-color: green
+}
+
+button:hover {
+    background-color: yellow;
+    color: #fff;
+}

@@ -1,0 +1,17 @@
+#Resolução dos exercicios
+
+puts "1) Quantas Horas há em um ano?"
+puts 24*365, "Horas"
+puts "----------------------------------"
+puts "2) Quantos Minutos há em uma década?"
+puts (24*60)*365*10, "Minutos"
+puts "----------------------------------"
+puts "3) Qual é a sua idade em segundos?"
+puts (40*365)*24*60*60, "Segundos"
+puts "----------------------------------"
+puts "4) Quantos chocolates você pretende comer na vida?"
+puts "Eu como 2 chocolates por mês, e pretendo viver até 144 anos, sendo assim."
+puts 24*144, "Comerei isso de chocolates por toda a vida"
+puts "5) Se minha idade é de 1232 milhões de segundos, qual é minha idade em anos?"
+puts (1232000000/60)/60/24/365, "Essa é minha idade."
+puts "----------------------------------"

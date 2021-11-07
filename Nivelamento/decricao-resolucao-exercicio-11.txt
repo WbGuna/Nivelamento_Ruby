@@ -1,0 +1,83 @@
+Exercicio Figuras Geométricas
+Primeira parte (Desenho do Quadrado (Bordas desenhadas com "*" e preenchimento com "x")
+
+Observação_01.: Utilizar as variáveis LINHA e COLUNA para determinar o tipo de impressão, ou seja, 
+             se será impresso o "*" ou o "x"
+
+Criar uma função para impressão de um quadrado na tela:
+    - Que receba o tamanho do quadrado como parâmetro de entrada
+    - Que retorne uma resposta VAZIA 
+
+Definição da função
+  nome da função :: imprimirQuadrado parâmetro de entrada -> dado digitado pelo usuário
+                          Criar um laço para desenho das linhas que execute de 1 até o tamanho informado (Ex.: de 1 até 10)
+                              Criar um laço para preenchimento das colunas do quadrado executando 
+                              de 1 até o tamanho informado (Ex.: de 1 até 10) 
+                                  Verificar as coordenadas (medidas) do quadrado para selecionar a impressão do "*" ou do "x"
+                                  Observação_02.: Esta checagem serve para o programa identificar 
+                                  se é necessário desenhar uma parte das quatro bordas do quadrado
+                                  Se LINHA for IGUAL a 1 ou 
+                                  Se LINHA for IGUAL ao TAMANHO ou 
+                                  Se COLUNA for IGUAL a 1 ou
+                                  Se COLUNA for IGUAL ao tamanho
+                                      Imprimir o caractere "*" na tela, ou seja, o programa está 
+                                      desenhando uma das quatro bordas
+                                      Observação_03.: Essas checagens são necessárias para o 
+                                      desenho das bordas superior e inferior do quadrado.
+                                          Exemplo.:
+                                              * * * * * * * * * *
+                                              * x x x x x x x x *
+                                              * x x x x x x x x *
+                                              * x x x x x x x x *
+                                              * x x x x x x x x *
+                                              * x x x x x x x x *
+                                              * x x x x x x x x *
+                                              * x x x x x x x x *
+                                              * x x x x x x x x *
+                                              * * * * * * * * * *
+                                   
+                                  Se nenhuma das análises de LINHA e COLUNA for VERDADEIRA
+                                      Imprimir o caractere "x", ou seja, o programa está desenhando 
+                                      o preenchimento do quadrado.
+                                  Fim Se       
+                              Fim Laço das Colunas
+                                  Imprimir o caractere de quebra de linha (\n)
+                          Fim do Laço das Linhas  
+                         Retorno da função VAZIO
+                    Fim da Função    
+                                 
+Imprimir na tela a solicitação para que o usuário digite o tamanho do quadrado
+Receber do usuario o tamanho do quadrado (serve para a altura e para a largura (para linas e colunas))
+Armazenar o valor em uma variável (sugestão de nome para a variável -> tamanho)
+Executar a chamada da função imprimirQuadrado passando o tamanho informado pelo usuário como parâmetro
+
+
+Segunda Parte
+Criar uma função para impressão de um triangulo na tela:
+    - Que receba a altura do triangulo como parâmetro de entrada
+    - Que retorne uma resposta VAZIA 
+
+Definição da função
+  nome da função :: imprimirTriangulo parâmetro de entrada -> dado digitado pelo usuário
+                          Observação_01.: O intervalo descrito para os lações refere-se a quantidade
+                                          de execuções que cada um vai fazer.
+                          Criar um laço para impressão das linhas (exemplo de 1 até 10)
+                              Criar um laço para impressão das colunas (exemplo de 1 até 10)
+                                  Imprimir o caractere "*" na tela 
+                              Fim Laço das Colunas
+                              Imprimir o caractere de quebra de linha (\n)
+                          Fim do Laço das Linhas  
+                         Retorno da função VAZIO
+                    Fim da Função    
+                                 
+Imprimir na tela a solicitação para que o usuário digite a altura do triangulo
+Receber do usuario a altura do triangulo
+Armazenar o valor em uma variável (sugestão de nome para a variável -> altura)
+Executar a chamada da função imprimirTriangulo passando a altura informada pelo usuário como parâmetro
+
+
+
+
+
+
+  

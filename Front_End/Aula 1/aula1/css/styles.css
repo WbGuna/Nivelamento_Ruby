@@ -1,0 +1,22 @@
+h1 {
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+
+h2 {
+    color: blue;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: hsl(120, 100%, 50%);
+    font-family: Arial;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    line-height: 42px;
+    font-style: italic;
+    text-align: right;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Zen+Old+Mincho:wght@700&display=swap');
+
+h1{
+   font-size: 30px;
+   text-align: center;
+   color: blue;
+   font-style: italic; 
+}
+
+h2{
+    font-size: 22px;
+    color: rgb(66, 35, 170);
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+body{
+    
+    font-family: 'Zen Old Mincho', serif;
+    background-color: rgb(245, 255, 230);
+}
